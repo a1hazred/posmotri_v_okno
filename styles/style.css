@@ -43,8 +43,7 @@ ol {
   display: flex;
   gap: 30px;
   width: 1140px;
-  min-height: 553px;
-  margin: 0px 30px 19px 30px;
+  margin: 0 30px;
 }
 
 .content__details {
@@ -55,13 +54,15 @@ ol {
 
 .content__list {
   position: relative;
-  max-height: 294px;
+  height: 304px;
+  padding-bottom: 10px;
   overflow: auto;
 }
 
 .search-form {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .search-form__fieldset {
@@ -98,7 +99,7 @@ ol {
 .title {
   width: 260px;
   margin-right: 139px;
-  padding-top: 22px;
+  padding-top: 12px;
   font-family: 'Oswald', sans-serif;
   font-size: 75px;
   line-height: 70.5px;
